@@ -39,7 +39,10 @@ span{
 .Two{
     background-image: url(Added-image/7.png);
     display: flex;
-    
+}
+.four{
+    width: 40%;
+    height: 90%;
 }
 #paragraph{
     width: 80%;

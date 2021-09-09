@@ -10,83 +10,140 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
+    <!-- Boostrap Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <section class="three">
-        <div class="first">
-            <h3>Welcome To The <span>Food Paradise</span></h3>
-            <p>Here You Will Find The Food You Want.So Enjoy Your Food!!!</p>
-            <a id="link" target="blank" href="https://cookpad.com/us">Order Now</a>
-        </div>
-        <div class="first">
-            <img class="one" src="Added-image/food paradise.png" alt="">
-        </div>
-    </section>
-    <section class="Two">
-        <div>
-            <img class="four" src="Added-image/Person Image.png" alt="">
-        </div>
-        <div class="first">
-            <h4>
-                About Site
-            </h4>
-            <p id="paragraph">An all around lovely and clean-cut website for all of your recipe desires.Find
-                collections based on
-                meals,in addition to snack beverages and more.</p>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto" href="#">
+                    <img src="Added-image/food paradise.png" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Food Paradise
+                </a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
-        </div>
+    <main class="">
+        <section class="container">
+            <div class="d-lg-flex align-items-center justify-content-center">
+                <div class="">
+                    <h3 class="fs-1 text-danger text-wrap">Welcome To The <br> <span>Food Paradise</span></h3>
+                    <p>Here You Will Find The Food You Want.So Enjoy Your Food!!!</p>
+                    <button type="button" class="btn btn-outline-warning">Order Now</button>
+                </div>
+                <div class="ms-lg-5">
+                    <img class="img-fluid" src="Added-image/food paradise.png" alt="">
+                </div>
+            </div>
 
-    </section>
+        </section>
+        <section class="Two container-fluid d-lg-flex justify-content-center align-items-center">
+            <div>
+                <img class="w-50 h-70 ms-5 ps-sm-5" src="Added-image/Person Image.png" alt="">
+            </div>
+            <div class="mt-4">
+                <h4 class="fs-2 text-center">
+                    About Site
+                </h4>
+                <p class="fs-2 w-80">An all around lovely and clean-cut website for all of your recipe desires.Find
+                    collections based on
+                    meals,in addition to snack beverages and more.</p>
+            </div>
+        </section>
 
-    <div class="two">
-        <h2>
-            My Recipies
-        </h2>
-        <p>We Provide Mouth Watering Dishes For You</p>
-    </div>
-    <section>
-        <div class="three">
-            <div class="shadow">
-                <img class="image" src="Added-image/Traditional Beef Steak.jpg" alt="">
-                <h3>Traditional Beef Steak</h3>
-                <p>Whisk the lemon juice, soy sauce, sugar, salt, and pepper together in a small bowl. Place the sliced
-                    steak in a large bowl; pour the lemon juice mixture over the steak and toss to coat. Sprinkle with
-                    the cornstarch and lightly mix. Cover with plastic wrap and refrigerate at least 1 hour, up to
-                    overnight.</p>
-            </div>
-            <div class="shadow">
-                <img class="image" src="Added-image/Traditional indonesian bakso.jpg" alt="">
-                <h3>Traditional Indonesian Bakso</h3>
-                <p>This mie bakso Indonesian meatball soup is quick and easy to make. It’s so simple you can even make
-                    this during the week after work. Serve with just the meatballs and broth for a light meal or make a
-                    complete meal with noodles and Asian vegetables.</p>
-            </div>
-            <div class="shadow">
-                <img class="image" src="Added-image/Korean KImbap.jpg" alt="">
-                <h3>Korean Kimbap Steamed Rice With Vagetables</h3>
-                <p>. Rinse the spinach and parboil it in rapidly boiling water (30 seconds to 1 minute). Drain the water
-                    away and run some cold water over the spinach. Gently squeeze the spinach to remove any excess
-                    water. Put the spinach into a bowl. Add 1/8 tsp salt and 1/2 Tbsp sesame oil then mix them well.</p>
-            </div>
+        <div class="two">
+            <h2>
+                My Recipies
+            </h2>
+            <p>We Provide Mouth Watering Dishes For You</p>
         </div>
-    </section>
-    <section class="shadow">
-        <div class="three">
-            <div class="four">
-                <h2>700K</h2>
-                <p>Youtube Subscribers</p>
+        <section class="container-fluid">
+            <div class="d-lg-flex justify-content-around align-items-center p-3 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="Added-image/Traditional Beef Steak.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Traditional Beef Steak</h3>
+                        <p>Whisk the lemon juice, soy sauce, sugar, salt, and pepper together in a small bowl. Place the
+                            sliced
+                            steak in a large bowl; pour the lemon juice mixture over the steak and toss to coat.
+                            Sprinkle
+                            with
+                            the cornstarch and lightly mix. Cover with plastic wrap and refrigerate at least 1 hour, up
+                            to
+                            overnight.</p>
+                        <div class="card-footer">
+                            Go Dishes
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="Added-image/Korean KImbap.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Korean Kimbap Steamed Rice With Vagetables</h3>
+                        <p>. Rinse the spinach and parboil it in rapidly boiling water (30 seconds to 1 minute). Drain
+                            the
+                            water
+                            away and run some cold water over the spinach. Gently squeeze the spinach to remove any
+                            excess
+                            water. Put the spinach into a bowl. Add 1/8 tsp salt and 1/2 Tbsp sesame oil then mix them
+                            well.
+                        </p>
+                        <div class="card-footer text-muted">
+                            Go Dishes
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="Added-image/Traditional indonesian bakso.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Traditional Indonesian Bakso</h3>
+                        <p>Whisk the lemon juice, soy sauce, sugar, salt, and pepper together in a small bowl. Place the
+                            sliced
+                            steak in a large bowl; pour the lemon juice mixture over the steak and toss to coat.
+                            Sprinkle
+                            with
+                            the cornstarch and lightly mix. Cover with plastic wrap and refrigerate at least 1 hour, up
+                            to
+                            overnight.</p>
+                        <div class="card-footer text-muted">
+                            Go Dishes
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="four">
-                <h2>2.8M</h2>
-                <p>Facebook Followers</p>
+        </section>
+        <section class=" container-fluid">
+            <div class="d-lg-flex justify-content-around shadow p-3 mb-5 bg-body rounded">
+                <div class="text-center">
+                    <h2>700K</h2>
+                    <p>Youtube Subscribers</p>
+                </div>
+                <div class="text-center">
+                    <h2>2.8M</h2>
+                    <p>Facebook Followers</p>
+                </div>
+                <div class="text-center">
+                    <h2>90k</h2>
+                    <p>Instragram Followers</p>
+                </div>
             </div>
-            <div class="four">
-                <h2>90k</h2>
-                <p>Instragram Followers</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <h1><span>Food Paradise</span></h3>
